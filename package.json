@@ -1,11 +1,24 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmanuelrios74/git-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmanuelrios74/git-test/issues"
+  },
+  "homepage": "https://github.com/jmanuelrios74/git-test#readme",
+  "description": "Git and NPM",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
